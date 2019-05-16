@@ -4,8 +4,8 @@ import org.junit.Test;
 public class MainClassTest extends MainClass
 {
     @Test
-    public void testGetLocalNumber()
+    public void testGetClassNumber()
     {
-        Assert.assertEquals("Returned value is not 14", 14, this.getLocalNumber());
+        Assert.assertTrue("Returned value is less or equal 45", this.getClassNumber() > 45);
     }
 }
